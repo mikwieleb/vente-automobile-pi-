@@ -5,3 +5,4 @@ window.Pi.authenticate().then((result) => {
         console.error("Échec de l'authentification :", result.error);
     }
 });
+<script src="auth.js"></script>
