@@ -1,0 +1,7 @@
+window.Pi.authenticate().then((result) => {
+    if(result.success) {
+        console.log("Utilisateur authentifié :", result.user);
+    } else {
+        console.error("Échec de l'authentification :", result.error);
+    }
+});
